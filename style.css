@@ -446,7 +446,10 @@ footer h3 {
     }
     .product-content {
         font-size: 1.6em;
+        text-align: center;
     }
+
+
     .slideshow-container {
         max-width: 45%;
     }
@@ -557,6 +560,15 @@ footer h3 {
     }
     .card {
         padding: 0 2rem;
+    }
+    .product-content {
+        font-size: 1.3em;
+    }
+    .about {
+        font-size: 0.8em;
+    }
+    .services {
+        font-size: 1em;
     }
 
 }
