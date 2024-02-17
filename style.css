@@ -368,7 +368,7 @@ footer h3 {
         font-size: 1.5em;
     }
     .slideshow-container {
-        max-width: 40%;
+        max-width: 20%;
     }
 }
 @media (max-width: 1600px) {
@@ -386,7 +386,7 @@ footer h3 {
         margin-right: auto;
         margin-left: auto;
         margin-top: 10vh;
-        max-width: 50%;
+        max-width: 30%;
     }
     .product-content {
         margin-top: 3vh;
@@ -440,13 +440,13 @@ footer h3 {
         margin-right: 0;
     }
     .slideshow-container {
-        max-width: 65%;
+        max-width: 40%;
     }
 
 }
 @media (max-width: 1000px) {
     .slideshow-container {
-        max-width: 75%;
+        max-width: 50%;
     }
 }
 
@@ -461,9 +461,7 @@ footer h3 {
 
 @media (max-width: 800px) {
     .slideshow-container {
-        max-width: 95%;
-    }
-    .slideshow-container {
+        max-width: 65%;
         margin-top: 5vh;
     }
     .service-box {
