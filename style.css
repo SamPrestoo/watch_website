@@ -175,7 +175,7 @@ main {
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .slideshow-container {
-    max-width: 10%;
+    max-width: 15%;
     position: relative;
     margin-right: auto;
 }
@@ -368,7 +368,7 @@ footer h3 {
         font-size: 1.5em;
     }
     .slideshow-container {
-        max-width: 10%;
+        max-width: 15%;
     }
 }
 @media (max-width: 1600px) {
@@ -386,7 +386,7 @@ footer h3 {
         margin-right: auto;
         margin-left: auto;
         margin-top: 10vh;
-        max-width: 10%;
+        max-width: 15%;
     }
     .product-content {
         margin-top: 3vh;
@@ -440,13 +440,13 @@ footer h3 {
         margin-right: 0;
     }
     .slideshow-container {
-        max-width: 10%;
+        max-width: 15%;
     }
 
 }
 @media (max-width: 1000px) {
     .slideshow-container {
-        max-width: 10%;
+        max-width: 15%;
     }
 }
 
