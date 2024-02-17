@@ -419,6 +419,7 @@ footer h3 {
         width: 85vw;
     }
 }
+
 @media (max-width: 1200px) {
     .products {
         flex-direction: column-reverse;
@@ -613,6 +614,15 @@ footer h3 {
     }
     .social_medias {
         margin-top: 3vh;
+    }
+    .product-content {
+        font-size: 1em;
+    }
+    .about {
+        font-size: 0.7em;
+    }
+    .services {
+        font-size: 0.8em;
     }
 }
 @media (max-width: 380px) {
