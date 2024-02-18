@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(166,166,166,1) 100%);
+    background: radial-gradient(circle, rgba(195,195,195,1) 15%, rgba(255,255,255,1) 75%);
     height: 75px;
     padding: 0 24px;
 }
@@ -38,7 +38,7 @@ li {
 
 
 .logo {
-    margin-left: 1.5vw;
+    margin-left: 0;
     margin-right: 2.5vw;
 }
 
@@ -364,7 +364,11 @@ footer h3 {
 }
 
 
-
+@media (max-width: 2500px) {
+    .product-content {
+        font-size: 1.7em;
+    }
+}
 
 
 @media (max-width: 2000px) {
@@ -374,6 +378,10 @@ footer h3 {
     .slideshow-container {
         max-width: 30%;
     }
+    .about {
+        font-size: 0.9em;
+    }
+    
 }
 @media (max-width: 1600px) {
     
@@ -389,6 +397,9 @@ footer h3 {
     .product-content {
         margin-top: 3vh;
         font-size: 1.6em;
+    }
+    .about {
+        width: 85vw;
     }
     .about h2 {
         margin-top: 4vh;
@@ -407,6 +418,7 @@ footer h3 {
     }
     .services {
         height: auto;
+        width: 85vw;
     }
     .service-box {
         font-size: 1.35em;
@@ -551,28 +563,25 @@ footer h3 {
     .products {
         margin-left: 10px;
         margin-right: 10px;
-        font-size: 1em;
+        font-size: 1.5em;
     }
     .about {
         /* width: 100%; */
-        font-size: 1em;
+        font-size: 3em;
         /* margin-right: 10px; */
         /* margin-left: 10px; */
     }
     .services {
-        font-size: 1em;
+        font-size: 0.8em;
     }
     .card {
         padding: 0 2rem;
     }
     .product-content {
-        font-size: 1.3em;
+        font-size: 0.9em;
     }
     .about {
-        font-size: 0.8em;
-    }
-    .services {
-        font-size: 1em;
+        font-size: 0.7em;
     }
 
 }
@@ -625,7 +634,7 @@ footer h3 {
         text-align: center;
     }
     footer h3 {
-        font-size: 2em;
+        font-size: 1.8em;
         margin-top: 4vh;
     }
     .social_medias {
@@ -635,10 +644,10 @@ footer h3 {
         font-size: 1em;
     }
     .about {
-        font-size: 0.7em;
+        font-size: 0.4em;
     }
     .services {
-        font-size: 0.8em;
+        font-size: 0.6em;
     }
 }
 @media (max-width: 380px) {
