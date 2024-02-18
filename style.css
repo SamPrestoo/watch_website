@@ -41,6 +41,9 @@ li {
     margin-left: 0;
     margin-right: 2.5vw;
 }
+.logo img {
+    height: 80px;
+}
 
 .nav_items {
     z-index: 2;
