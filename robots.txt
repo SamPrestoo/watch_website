@@ -1,15 +1,3 @@
 User-agent: *
-Disallow: /images/
-Allow: /images/background.jpg
-Allow: /images/facebook.png
-Allow: /images/Frame 2.png
-Allow: /images/instagram.png
-Allow: /images/logo.png
-Allow: /images/mainsection.png
-Allow: /images/prouductbg.jpg
-Allow: /images/twitter.svg
-Allow: /images/watch1.jpg
-Allow: /images/watch2.jpg
-Allow: /images/watch3.jpg
-Allow: /images/watch4.jpg
+
 
