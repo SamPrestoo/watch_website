@@ -1,4 +1,4 @@
-user_agent: *
+User-agent: *
 Disallow: /images/
 Allow: /images/background.jpg
 Allow: /images/facebook.png
