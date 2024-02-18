@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(166,166,166,1) 100%);
+    background: radial-gradient(circle, rgba(195,195,195,1) 15%, rgba(255,255,255,1) 75%);
     height: 75px;
     padding: 0 24px;
 }
@@ -41,7 +41,7 @@ li {
 
 
 .logo {
-    margin-left: 1.5vw;
+    margin-left: 0;
     margin-right: 2.5vw;
 }
 
@@ -81,9 +81,11 @@ li {
 
 
 main {
-    background: url(images/background.jpg);
-    background-position: top center;
-    height: 100vh;
+    background: url(images/custombackground.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+
+    height: auto;
 }
 
 .products-container {
