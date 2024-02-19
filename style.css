@@ -91,7 +91,8 @@ li {
 
 main {
     z-index: 0;
-    height: 105vh;
+    height: auto;
+    padding: 3em 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -383,7 +384,11 @@ footer h3 {
 
 
 
-
+@media (max-width: 4000px) {
+    main {
+        padding: 15em 0;
+    }
+}
 @media (max-width: 2500px) {
     .product-content {
         font-size: 1.7em;
@@ -394,8 +399,8 @@ footer h3 {
     .watch img {
         width: 20rem;
     }
-    .slideshow-container {
-
+    main {
+        padding: 25em 0;
     }
 }
 
@@ -416,6 +421,9 @@ footer h3 {
     .watch img {
         width: 20rem;
     }
+    main {
+        padding: 13em 0;
+    }
     
 }
 @media (max-width: 1600px) {
@@ -424,7 +432,7 @@ footer h3 {
         /* background-color: #FFFFFF; */
     }
     main {
-        height: 115vh;
+        /* height: 115vh; */
     }
 
     .card {
@@ -477,6 +485,9 @@ footer h3 {
     .watch img {
         width: 20rem;
     }
+    main {
+        padding: 11em 0;
+    }
 }
 @media (max-width: 1420px) {
     .product-content {
@@ -497,6 +508,9 @@ footer h3 {
     }
     .watch img {
         width: 20rem;
+    }
+    main {
+        padding: 10em 0;
     }
 }
 
@@ -545,6 +559,9 @@ footer h3 {
     .watch img {
         width: 20rem;
     }
+    main {
+        padding: 8em 0;
+    }
 
 }
 @media (max-width: 1000px) {
@@ -560,7 +577,9 @@ footer h3 {
     .watch img {
         width: 20rem;
     }
-    
+    main {
+        padding: 6em 0;
+    }
 }
 
 
@@ -578,6 +597,9 @@ footer h3 {
     .product-content {
         font-size: 1.7em;
     }
+    main {
+        padding: 5em 0;
+    }
 }
 
 
@@ -592,7 +614,7 @@ footer h3 {
         margin-right: 20px;
     }
     main {
-        
+        padding: 4em 0;
     }
     .product-content {
         font-size: 1.7em;
@@ -694,6 +716,9 @@ footer h3 {
     .about {
         font-size: 0.7em;
     }
+    main {
+        padding: 3em 0;
+    }
 
 }
 @media (max-width: 500px) {
@@ -703,6 +728,9 @@ footer h3 {
     }
     .info h1 {
         width: 100%;
+    }
+    main {
+        padding: 2em 0;
     }
        
 }
@@ -762,9 +790,7 @@ footer h3 {
     .services {
         font-size: 0.7em;
     }
-    main {
-        height: 90vh;
-    }
+
 }
 
 @media (max-width: 336px) {
