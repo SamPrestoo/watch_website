@@ -651,10 +651,10 @@ footer h3 {
         font-size: 1em;
     }
     .about {
-        font-size: 0.4em;
+        font-size: 0.6em;
     }
     .services {
-        font-size: 0.6em;
+        font-size: 0.7em;
     }
 }
 @media (max-width: 380px) {
