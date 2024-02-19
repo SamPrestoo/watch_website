@@ -14,7 +14,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background: radial-gradient(circle, rgba(195,195,195,1) 15%, rgba(255,255,255,1) 75%);
-    height: 75px;
+    height: 80px;
     padding: 0 24px;
 }
 
@@ -33,7 +33,7 @@ li {
     margin: 5px auto;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    background-color: white;
+    background-color: black;
 }
 
 
@@ -387,6 +387,10 @@ footer h3 {
     
 }
 @media (max-width: 1600px) {
+    .nav_bar {
+        background: none;
+        background-color: #FFFFFF;
+    }
     
     .products-link {
         font-size: 0.95em;
@@ -528,7 +532,7 @@ footer h3 {
         top: 64px;
         gap: 0;
         flex-direction: column;
-        background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(166,166,166,1) 100%);
+        background-color: #FFFFFF;
         width: 100%;
         
         text-align: center;
