@@ -141,6 +141,7 @@ main {
 
 .products {
     display: flex;
+    justify-content: center;
     align-items: center;
     height: 70vh;
 
@@ -600,8 +601,10 @@ footer h3 {
         margin-right: 15px;
     }
     .products {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-bottom: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        
         font-size: 1.5em;
     }
 
@@ -652,8 +655,9 @@ footer h3 {
 }
 @media (max-width: 420px) {
     .products {
-        margin-left: 5px;
-        margin-right: 5px;
+        margin-bottom: 2em;
+        margin-left: auto;
+        margin-right: auto;
     }
     .watch img {
         width: 20rem;
