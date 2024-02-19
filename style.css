@@ -594,7 +594,8 @@ footer h3 {
 @media (max-width: 600px) {
     .card {
         width: 90vw;
-        min-height: 55vh;
+        /* min-height: 55vh; */
+        min-height: 35vh;
     }
     .watch img {
         width: 25rem;
@@ -672,7 +673,8 @@ footer h3 {
         width: 20rem;
     }
     .card {
-        min-height: 45vh;
+        /* min-height: 45vh; */
+        min-height: 35vh;
         padding: 0 10px;
     }
     .footer_links {
