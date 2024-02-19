@@ -315,6 +315,20 @@ footer h3 {
         width: 250px;
     }
 }
+@media (max-width: 420px) {
+    .footer_links {
+        font-size: 1em;
+        flex-direction: column;
+        text-align: center;
+    }
+    footer h3 {
+        font-size: 1.8em;
+        margin-top: 4vh;
+    }
+    .social_medias {
+        margin-top: 3vh;
+    }
+}
 @media (max-width: 380px) {
     .product-box {
         max-width: 300px;
