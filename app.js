@@ -56,7 +56,17 @@ function autoSlide() {
 autoSlide();
 
 
-
+window.addEventListener('scroll', function() {
+    const fadeIns = document.querySelectorAll('#fade-in');
+    for (let i = 0; i < fadeIns.length; i++) {
+      const fadeIn = fadeIns[i];
+      const fadeInPosition = fadeIn.getBoundingClientRect().top + fadeIn.offsetHeight / 2;
+      const screenPosition = window.innerHeight;
+      if (fadeInPosition < screenPosition) {
+        fadeIn.style.opacity = '1';
+      }
+    }
+  });
 
 
 
