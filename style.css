@@ -112,7 +112,7 @@ main {
     transform-style: preserve-3d;
     backdrop-filter: blur(20px);
     max-height: 70%;
-    width: 35rem;
+    width: 30rem;
     border-radius: 30px;
     padding: 0rem 5rem;
     background-color: rgba(59, 59, 59, 0.5);
@@ -427,7 +427,9 @@ footer h3 {
         height: 115vh;
     }
 
-    
+    .card {
+
+    }
     .products-link {
         font-size: 0.95em;
     }
@@ -473,7 +475,7 @@ footer h3 {
         font-size: 2.6em;
     }
     .watch img {
-        width: 15rem;
+        width: 20rem;
     }
 }
 @media (max-width: 1420px) {
