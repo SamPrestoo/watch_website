@@ -43,6 +43,7 @@ li {
 .logo {
     margin-left: 0;
     margin-right: 2.5vw;
+    height: 80px;
 }
 
 .nav_items {
@@ -81,10 +82,10 @@ li {
 
 
 main {
-    background: url(images/custombackground.png);
-    background-repeat: repeat-y;
-    background-size: cover;
-
+    background: url(images/productbg.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
     height: auto;
 }
 
