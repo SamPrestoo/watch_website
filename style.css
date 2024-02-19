@@ -80,6 +80,15 @@ li {
 }
 
 
+
+#fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+
+
+
 main {
     z-index: 0;
     height: 105vh;
