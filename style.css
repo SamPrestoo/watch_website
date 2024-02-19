@@ -308,7 +308,7 @@ footer {
     margin-right: auto;
 }
 footer h3 {
-    margin-top: 8vh;
+    margin-top: 3vh;
     font-size: 2em;
     text-align: center;
 }
@@ -367,6 +367,12 @@ footer h3 {
 }
 
 
+
+
+
+
+
+
 @media (max-width: 2500px) {
     .product-content {
         font-size: 1.7em;
@@ -376,7 +382,7 @@ footer h3 {
 
 @media (max-width: 2000px) {
     .product-content {
-        font-size: 1.5em;
+        font-size: 2em;
     }
     .slideshow-container {
         max-width: 30%;
@@ -403,7 +409,7 @@ footer h3 {
     }
     .product-content {
         margin-top: 3vh;
-        font-size: 1.6em;
+        font-size: 1.8em;
     }
     .about {
         width: 85vw;
@@ -433,13 +439,17 @@ footer h3 {
 }
 @media (max-width: 1420px) {
     .product-content {
-        font-size: 1.4em;
+        font-size: 1.8em;
     }
     .about {
         width: 85vw;
     }
     .services {
         width: 85vw;
+    }
+    .products {
+        width: 90vw;
+        margin: 0 auto;
     }
 }
 
@@ -471,6 +481,9 @@ footer h3 {
         font-size: 1.6em;
         text-align: center;
     }
+    .product-content {
+        font-size: 1.7em;
+    }
 
 
     .slideshow-container {
@@ -482,6 +495,10 @@ footer h3 {
     .slideshow-container {
         max-width: 50%;
     }
+    .product-content {
+        font-size: 1.7em;
+    }
+    
 }
 
 
@@ -489,6 +506,15 @@ footer h3 {
     .gallery {
         flex-direction: column;
         align-items: center;
+    }
+    .about {
+        font-size: 0.8em;
+    }
+    .product-content {
+        font-size: 1.1em;
+    }
+    .product-content {
+        font-size: 1.7em;
     }
 }
 
@@ -504,7 +530,10 @@ footer h3 {
         margin-right: 20px;
     }
     main {
-        height: 90vh;
+        
+    }
+    .product-content {
+        font-size: 1.7em;
     }
 }
 
@@ -546,6 +575,9 @@ footer h3 {
         left: 0;
         padding: 0;
     }
+    .product-content {
+        font-size: 1.7em;
+    }
 
 }
 
@@ -572,12 +604,7 @@ footer h3 {
         margin-right: 10px;
         font-size: 1.5em;
     }
-    .about {
-        /* width: 100%; */
-        font-size: 3em;
-        /* margin-right: 10px; */
-        /* margin-left: 10px; */
-    }
+
     .services {
         font-size: 0.8em;
     }
@@ -656,10 +683,11 @@ footer h3 {
     .services {
         font-size: 0.7em;
     }
+    main {
+        height: 90vh;
+    }
 }
-@media (max-width: 380px) {
-    
-}
+
 @media (max-width: 336px) {
     .watch img {
         width: 15rem;
