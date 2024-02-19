@@ -111,7 +111,7 @@ main {
     justify-content: center;
     transform-style: preserve-3d;
     backdrop-filter: blur(20px);
-    min-height: 45vh;
+    max-height: 70%;
     width: 35rem;
     border-radius: 30px;
     padding: 0rem 5rem;
@@ -152,7 +152,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: auto;
+    padding: 4em 0;
 
 }
 .product-content {
@@ -387,6 +388,15 @@ footer h3 {
     .product-content {
         font-size: 1.7em;
     }
+    .info h1 {
+        font-size: 2.6em;
+    }
+    .watch img {
+        width: 20rem;
+    }
+    .slideshow-container {
+
+    }
 }
 
 
@@ -400,6 +410,12 @@ footer h3 {
     .about {
         font-size: 0.9em;
     }
+    .info h1 {
+        font-size: 2.6em;
+    }
+    .watch img {
+        width: 20rem;
+    }
     
 }
 @media (max-width: 1600px) {
@@ -407,9 +423,10 @@ footer h3 {
         /* background: none; */
         /* background-color: #FFFFFF; */
     }
-    .card {
-        width: 40rem;
+    main {
+        height: 115vh;
     }
+
     
     .products-link {
         font-size: 0.95em;
@@ -449,6 +466,12 @@ footer h3 {
     .service-box {
         font-size: 1.35em;
     }
+    .info h1 {
+        font-size: 2.6em;
+    }
+    .watch img {
+        width: 20rem;
+    }
 }
 @media (max-width: 1420px) {
     .product-content {
@@ -464,6 +487,12 @@ footer h3 {
         width: 90vw;
         margin: 0 auto;
     }
+    .info h1 {
+        font-size: 2.6em;
+    }
+    .watch img {
+        width: 20rem;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -473,11 +502,11 @@ footer h3 {
         align-items: center;
         height: auto;
         margin-bottom: 8vh;
+        padding: 0;
     }
-    .card {
-        width: 45rem;
-    }
+
     .about {
+        margin-top: 2em;
         width: 90vw;
     }
     .services {
@@ -505,6 +534,12 @@ footer h3 {
     .slideshow-container {
         max-width: 45%;
     }
+    .info h1 {
+        font-size: 2.6em;
+    }
+    .watch img {
+        width: 20rem;
+    }
 
 }
 @media (max-width: 1000px) {
@@ -513,6 +548,12 @@ footer h3 {
     }
     .product-content {
         font-size: 1.7em;
+    }
+    .info h1 {
+        font-size: 2.6em;
+    }
+    .watch img {
+        width: 20rem;
     }
     
 }
@@ -550,6 +591,12 @@ footer h3 {
     }
     .product-content {
         font-size: 1.7em;
+    }
+    .info h1 {
+        font-size: 2.6em;
+    }
+    .watch img {
+        width: 20rem;
     }
 }
 
@@ -593,6 +640,12 @@ footer h3 {
     }
     .product-content {
         font-size: 1.7em;
+    }
+    .info h1 {
+        font-size: 2.4em;
+    }
+    .watch img {
+        width: 20rem;
     }
 
 }
