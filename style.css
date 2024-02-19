@@ -407,6 +407,9 @@ footer h3 {
         /* background: none; */
         /* background-color: #FFFFFF; */
     }
+    .card {
+        width: 40rem;
+    }
     
     .products-link {
         font-size: 0.95em;
@@ -470,6 +473,9 @@ footer h3 {
         align-items: center;
         height: auto;
         margin-bottom: 8vh;
+    }
+    .card {
+        width: 45rem;
     }
     .about {
         width: 90vw;
