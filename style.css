@@ -111,7 +111,7 @@ main {
     justify-content: center;
     transform-style: preserve-3d;
     backdrop-filter: blur(20px);
-    min-height: 60vh;
+    min-height: 45vh;
     width: 35rem;
     border-radius: 30px;
     padding: 0rem 5rem;
