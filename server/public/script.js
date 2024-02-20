@@ -2,7 +2,7 @@ const product_box = document.querySelectorAll('.product-box');
 product_box.forEach((product_box) => {
     product_box.addEventListener("click", () => {
         const productId = Number(product_box.dataset.productId);
-        fetch('/create-checkout-session', {
+        fetch('https://watch-website.onrender.com/create-checkout-session', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
