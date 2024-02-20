@@ -9,10 +9,6 @@ app.use(express.static('public'))
 const stripe = require('stripe')(process.env.STRIPE_PRIVATE_KEY)
 
 
-require('dotenv').config();
-
-console.log(process.env.DB_HOST); // 'localhost'
-
 
 const storeItems = new Map([
     [1, { priceInCents: 10000, name: "Learn React Today"}],
