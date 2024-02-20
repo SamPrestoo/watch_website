@@ -27,3 +27,9 @@ product_box.forEach((product_box) => {
     })
 })
 
+
+require('dotenv').config();
+
+console.log(process.env.SERVER_URL); // 'localhost'
+
+
