@@ -14,9 +14,9 @@ product_box.forEach((product_box) => {
             }),
         })
         .then(res => {
-            console.log(res);
-            if (res.ok) return res.json()
-            return res.json().then(json => Promise.reject(json))
+            console.log(res.clone());
+            if (res.ok) return res.json();
+            return res.json().then(json => Promise.reject(json));
         })
         .then(({ url }) => {
             window.location = url
@@ -26,6 +26,3 @@ product_box.forEach((product_box) => {
         })
     })
 })
-
-
-
