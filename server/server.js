@@ -66,3 +66,8 @@ app.post('/create-checkout-session', async (req, res) => {
 })
 
 app.listen(3000)
+
+
+require('dotenv').config();
+
+console.log(process.env.SERVER_URL); // 'localhost'
