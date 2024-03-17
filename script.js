@@ -1,3 +1,23 @@
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav_items');
+
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    navMenu.classList.toggle('active');
+});
+
+
+document.querySelectorAll(".nav_link_pages").forEach(n => n.addEventListener('click', () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}))
+
+
+
+
+
+
+
 // Function to navigate slides
 function plusSlides(n, slideshowId) {
     var slideshow = document.getElementById(slideshowId);
