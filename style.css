@@ -245,7 +245,7 @@ main {
 .about {
 
     border-top: 3px solid black;
-    width: 70vw;
+    width: 82vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -271,7 +271,7 @@ main {
     flex-direction: column;
     align-items: center;
     border-top: 3px solid black;
-    width: 70vw;
+    width: 82vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -423,6 +423,9 @@ footer h3 {
     }
     main {
         padding: 13em 0;
+    }
+    .about {
+        width: 82vw;
     }
     
 }
@@ -705,7 +708,7 @@ footer h3 {
     }
 
     .services {
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
     .card {
         padding: 0 2rem;
@@ -714,7 +717,7 @@ footer h3 {
         font-size: 0.9em;
     }
     .about {
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
     main {
         padding: 3em 0;
@@ -785,10 +788,10 @@ footer h3 {
         font-size: 1em;
     }
     .about {
-        font-size: 0.6em;
+        font-size: 0.7em;
     }
     .services {
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
 
 }
